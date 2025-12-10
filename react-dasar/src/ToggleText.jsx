@@ -17,8 +17,7 @@ function ToggleText() {
 
       {isVisible ? (
         <p style={{ color: "blue", fontWeight: "bold" }}>
-          [cite_start]Ini adalah Teks Rahasia yang bisa disembunyikan! [cite:
-          206]
+          Teks Rahasia
         </p>
       ) : (
         <p style={{ color: "gray", fontStyle: "italic" }}>
@@ -30,3 +29,4 @@ function ToggleText() {
 }
 
 export default ToggleText;
+
